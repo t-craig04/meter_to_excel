@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Data files - CRITICAL for you
+data/raw/
+data/processed/
+*.zip
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
